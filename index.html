@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Arsh's World</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <!-- Side Navigation Bar -->
+        <div class="sidenav">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#work-experience">Work Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact-section">Contact</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Arsh's Duniyaa</h1>
+            <h5>Duniyaa = World</h5>
+            <h5>That's just the beginning, scroll to learn more</h5>
+
+            <!-- Image with Text Overlay -->
+            <div class="image-container">
+                <img src="bmw.jpg" alt="BMW Image" class="hero-image">
+                <div class="overlay-text">
+                    <p>My name is Arsh Mobeen</p>
+                    <p>I am a software engineer</p>
+                    <p>With countless experiences working with automotives, come to me for your next aspiration and see it turn to light in front of your eyes.</p>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+
+            <!-- About Me Section -->
+            <div id="about" class="section">
+                <h2>About Me</h2>
+                <p>Born in Canada in 2005, Arsh Mobeen was born an automotive person, with him always helping his dad work on his AMG. That passion grew into a skill, and today, he works on tuning and modifying cars, most well known for his Porsche 911 tuning kit he calls "the aura kit". His work is famous for his gas to electric and electric to gas conversions. Get involved, hit contact button.</p>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div id="work-experience" class="section">
+                <h2>Work Experience</h2>
+                <p><strong>Amity Global Foundation:</strong> Worked for 2 years, raised funds for Palestine, and organized events.</p>
+                <p><strong>Pakistan Student Association:</strong> Director of Logistics.</p>
+            </div>
+
+            <!-- Contact Section -->
+            <div id="contact-section" class="section">
+                <h2>Contact Us</h2>
+                <p>Email: amobeen2@uwo.ca</p>
+            </div>    
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <ul>
+                    <li><a href="#privacy-policy">Privacy Policy</a></li>
+                    <li><a href="#terms-of-use">Terms of Use</a></li>
+                    <li><a href="#contact-section">Contact Information</a></li>
+                    <li><a href="#home">Website Navigation Links</a></li>
+                    <li><a href="#social-networks">Social Networks</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+
+        <style>
+            body {
+                font-family: 'Montserrat', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+
+            .sidenav {
+                height: 100%;
+                width: 250px;
+                position: fixed;
+                left: 0;
+                top: 0;
+                background-color: #111;
+                padding-top: 20px;
+            }
+
+            .sidenav a {
+                padding: 15px 20px;
+                text-decoration: none;
+                font-size: 18px;
+                color: #f1f1f1;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                background-color: #575757;
+                color: #fff;
+                padding-left: 30px;
+            }
+
+            .main-content {
+                margin-left: 260px;
+                padding: 20px;
+            }
+
+            .main-content h1 {
+                font-size: 36px;
+                color: #111;
+            }
+
+            .main-content h5 {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .image-container {
+                position: relative;
+                width: 100%;
+                max-width: 1000px;
+                margin-top: 20px;
+            }
+
+            .hero-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .overlay-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 15px;
+                font-size: 12px;
+                line-height: 1.6;
+            }
+
+            .learn-more-btn {
+                background-color: #28a745;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 12px;
+                margin-top: 20px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .learn-more-btn:hover {
+                background-color: #218838;
+            }
+
+            .section {
+                margin-top: 40px;
+            }
+
+            .section h2 {
+                font-size: 28px;
+                color: #111;
+            }
+
+            .section p {
+                font-size: 16px;
+                color: #333;
+                line-height: 1.6;
+            }
+
+            .section a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+            .section a:hover {
+                text-decoration: underline;
+            }
+
+            .footer {
+                background-color: #111;
+                color: #f1f1f1;
+                padding: 20px 0;
+                text-align: center;
+                width: 100%;
+                position: relative;
+                bottom: 0;
+            }
+
+            .footer-content ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .footer-content ul li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            .main-content {
+                padding-bottom: 100px; 
+            }
+        </style>
+
+    </body>
+</html>
